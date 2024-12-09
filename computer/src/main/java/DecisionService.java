@@ -15,7 +15,8 @@ public class DecisionService {
         MainCalculateService ms = new MainCalculateService();
         ms.initFullyComputer();
         BigDecimal bigDecimal = ms.calculateCostOfBuyFully();
-        System.out.println("整机的花费是：" + bigDecimal);
+        System.out.println(" 整机的花费是：" + bigDecimal);
+        System.out.println(" 整机的花费是：" + bigDecimal);
     }
 
 
